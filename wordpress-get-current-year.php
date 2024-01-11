@@ -12,9 +12,7 @@ Author URI: https://github.com/louisisaacdiouf
 Licence: GPLv2
 */
 
-if (!defined( 'ABSPATH')) {
-    die;
-}
+defined('ABSPATH') or die("Avada kedavra!");
 
 function mon_plugin_affichage_annee() {
     $annee = date('Y');
