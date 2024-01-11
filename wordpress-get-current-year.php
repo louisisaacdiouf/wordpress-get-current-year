@@ -12,10 +12,9 @@ Author URI: https://github.com/louisisaacdiouf
 Licence: GPLv2
 */
 
-defined('ABSPATH') or die("Avada kedavra!");
+function_exists('add_action') or die("Avada kedavra!");
 
-function mon_plugin_affichage_annee() {
-    $annee = date('Y');
-    return $annee;
+function current_year() {
+    return date('Y');
 }
-add_shortcode('annee', 'mon_plugin_affichage_annee');
+add_shortcode('annee', 'current_year');
