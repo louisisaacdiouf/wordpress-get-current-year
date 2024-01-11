@@ -1,2 +1,4 @@
-# wordpress-get-current-year
-Displays the current year using a shortcode
+# WordPress Get Current Year
+
+## Description
+Displays the current year using the shortcode ```[annee]```
